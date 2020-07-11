@@ -1,0 +1,29 @@
+{
+	"type": "RepairDrone",
+	"name": "Sand Healer Drone",
+	"description": "drones that heal fast but has low health.",
+   "health": "10",
+   "speed": "2",
+   "range": "10",
+   "rotateSpeed": "1",
+   "flying": "true",
+   "drag": "0.02",
+   "maxVelocity": "10",
+   "weapon": {
+     "bullet": {
+       "lifetime": "5",
+       "speed": "2.5",
+       "drawSize": "10",
+       "despawnEffect": "heal",
+       "type": "HealBulletType",
+       "healPercent": "5"
+     },
+     "reload": "4",
+     "shots": "2",
+     "spacing": "2",
+     "recoil": "2",
+     "velocityRnd": "40",
+     "alternate": "true",
+   },
+   "engineSize": "2"
+}

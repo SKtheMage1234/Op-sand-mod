@@ -1,0 +1,16 @@
+{
+	"name": "Item Teleporter",
+	"description": "Teleports item to core, becareful as you cannot removed it once placed",
+	"type": "CoreBlock",
+	"health": 1000,
+	"size": 1,
+	"itemCapacity": 1,
+	"requirements": [
+	  hallowed-sand/50
+	  storable-sand/100
+	  magic-dust/75
+	  phase-fabric/25
+	],
+	"research": "sand-brewery",
+	"category": "effect"
+}

@@ -1,0 +1,36 @@
+name: The Sand Cave
+description: Very Dangerous.
+startingItems: [
+  copper/50
+  lead/50
+  graphite/90
+]
+conditionWave: 8
+launchPeriod: 8
+requirements: [
+  {
+    type: ZoneWave
+    zone: desolateRift
+    wave: 16
+  }
+  {
+    type: Unlock
+    block: sand-brewery
+  }
+  {
+    type: Unlock
+    block: sand-checker
+  }
+  {
+  type: Unlock
+  block: magic-dust-maker
+  }
+]
+resources: [
+  copper
+  titanium
+  thorium
+  lead
+  coal
+  sand
+]

@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Sand Brewery
+description: brews sand and magic dust to form hallowed sand
+liquidCapacity: 0
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 180
+updateEffect: plasticburn
+consumes: {
+  power: 1
+  liquid: cryofluid/1
+    items:{
+     items:[
+      sand/4
+      magic-dust/2
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  silicon/200
+  titanium/100
+  storable-sand/30
+]
+category: crafting
+research: sand-checker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: hallowed-sand/4

@@ -1,0 +1,7 @@
+type: material
+name: Hallowed Sand
+description: sand mixed with magic dust. used for magical walls and ammo. very radioactive.
+hardness: 2
+radioactiveness: 100%
+cost: 2.5
+color: ff66ee

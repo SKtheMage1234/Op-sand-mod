@@ -1,0 +1,25 @@
+type: GenericSmelter
+name: Sand Checker
+description: Makes sand storable
+liquidCapacity: 0
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 5
+updateEffect: plasticburn
+consumes: {
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/50
+]
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: storable-sand/1

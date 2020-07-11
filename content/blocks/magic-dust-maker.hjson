@@ -1,0 +1,30 @@
+name: Magic Dust Maker
+description: turns thorium to magic dust
+liquidCapacity: 0
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 180
+updateEffect: placeBlock
+consumes: {
+  power: 0.9
+    items:{
+     items:[
+      thorium/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  titanium/100
+  thorium/100
+  storable-sand/20
+]
+category: crafting
+research: sand-checker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: magic-dust/2

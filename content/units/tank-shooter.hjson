@@ -1,0 +1,18 @@
+"type": "GroundUnit",
+"name": "Shock Tanks",
+"description": "Powerful Slow Tank that shoots lightning.",
+speed: 0.75
+flying: false
+hitSize: 24
+health: 5000
+maxVelocity: 0.75
+engineOffset: 5
+range: 150
+weapon: {
+  name: chrome-blaster
+  length: 1.5
+  reload: 2
+  alternate: true
+  damage:200
+  bullet: lightning
+}
