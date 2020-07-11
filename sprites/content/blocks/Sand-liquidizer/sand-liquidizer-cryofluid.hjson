@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Sand Liquidizer(CryoFluid)
+description: turns sand to Cryofluid
+liquidCapacity: 90
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 10
+updateEffect: breakBlock
+consumes: {
+  power: 0.5
+    items:{
+     items:[
+      sand/2
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  silicon/100
+  titanium/100
+  thorium/20
+  storable-sand/20
+]
+category: crafting
+research: sand-liquidizer-slag
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: cryofluid/2.5

@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Sand morpher(Silicon)
+description: turns sand to silicon
+liquidCapacity: 0
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 15
+updateEffect: plasticburn
+consumes: {
+  power: 0.8
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  silicon/100
+  storable-sand/40
+]
+category: crafting
+research: sand-morpher-graphite
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/2

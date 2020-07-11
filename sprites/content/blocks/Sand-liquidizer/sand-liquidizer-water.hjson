@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Sand Liquidizer(Water)
+description: turns sand to water
+liquidCapacity: 90
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: breakBlock
+consumes: {
+  power: 0.5
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  storable-sand/20
+]
+category: crafting
+research: sand-checker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: water/10

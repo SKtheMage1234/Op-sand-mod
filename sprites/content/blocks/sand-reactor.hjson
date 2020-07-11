@@ -1,0 +1,29 @@
+type: ImpactReactor
+name: "Sand Reactor"
+description: "Uses Sand as Power, takes a very long time."
+size: 4
+hasPower: true
+hasLiquds: true
+hasItems: true
+itemCapacity: 20
+itemDuration: 90
+warmupSpeed: 0.0001
+powerProduction: 158.33
+plasmas: 4
+consumes: {
+ power: 8.33
+  items: {
+   items: [
+    sand/10
+    ]
+  }
+}
+requirements: [
+  metaglass/500
+  storable-sand/300
+  silicon/390
+  hallowed-sand/170
+  thorium/200
+]
+category: power
+research: thorium-reactor

@@ -1,0 +1,34 @@
+{
+	"type": "BuilderDrone",
+	"name": "Sand Builder Drone",
+	"description": "Builder drones more powerful and faster than ordinary builder drones but has lower health.",
+   "drag": 0.005,
+	"speed": 10,
+	"mass": 20,
+	"hitsize": 15,
+	"health": 10,
+  "flying": true,
+	"rotateWeapon": true,
+	"engineOffset": 8,
+	"engineSize": 5,
+	"rotatespeed": 3,
+	"buildPower": 5,
+	"baseRotateSpeed": 3,
+	"shootCone": 360,
+	"weapon": {
+		"name": "nothing",
+		"length": 1,
+		"width": 0.1,
+		"reload": 100000000000000,
+    "shots": 5,
+    "shootcone": 360,
+    "shotDelay": 2,
+		"alternate": false,
+    "velocityRnd": 0.4,
+    "spacing": 0.5,
+    "shootSound": "artillery",
+		"bullet": "healBullet",
+ 
+
+	}
+}

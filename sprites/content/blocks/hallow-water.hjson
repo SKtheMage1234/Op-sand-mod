@@ -1,0 +1,12 @@
+type: Floor
+liquidDrop: hallowed-water
+speedMultiplier: 5
+variants: 0
+isLiquid: true
+status: freezing
+statusDuration: 240
+drownUpdateEffect: burning
+walkEffect: freezing
+blendGroup: water
+drownTime: 10
+cacheLayer: tar

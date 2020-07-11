@@ -1,0 +1,60 @@
+{
+	"type": "ItemTurret",
+	"name": "Dust Devil",
+	"description": "Shoots a fast ring of homing bullets bullets",
+	"targetAir": true,
+	"weaponOffsetY": -8,
+	"targetGround": true,
+	"health": 1000,
+	"size": 2,
+	"inaccuracy": 0,
+	"reload": 10,
+	"shots": 36,
+	"spread": 10,
+	"recoil": 0,
+	"ammoUseEffect": "shellEjectBig",
+	"shootCone": 360,
+	"rotateSpeed": 50,
+	"range": 120,
+	"ammo": {
+		"sand":{
+		"type": "MissileBulletType",
+		"speed": 5,
+		"lifetime": 100,
+		"collides": true,
+		"damage": 5,
+		"splashDamageRadius": 50,
+		"splashDamage": 15,
+		"homingRange": 20,
+		"homingPower": 2,
+		"pierce": true,
+		"weaveScale": 5,
+		"weaveMag": 1.5,
+		"trailColor": missileYellowBack
+   },
+   "storable-sand":{
+		"type": "MissileBulletType",
+		"speed": 5,
+		"lifetime": 100,
+		"collides": true,
+		"damage": 5,
+		"splashDamageRadius": 50,
+		"splashDamage": 15,
+		"homingRange": 20,
+		"homingPower": 2,
+		"pierce": true,"weaveScale": 5,
+		"weaveMag": 1.5,
+		"trailColor": missileYellowBack
+   }
+	},
+	"requirements": [
+	 	{ "item": "copper", "amount": 250 },
+		{ "item": "graphite", "amount": 200},
+		{ "item": "titanium", "amount": 200},
+		{ "item": "storable-sand", "amount": 100},
+		{ "item": "magic-dust", "amount": 50}
+	],
+	"category": "turret",
+	"research": "duo",
+	"shootSound": "bigshot"
+}

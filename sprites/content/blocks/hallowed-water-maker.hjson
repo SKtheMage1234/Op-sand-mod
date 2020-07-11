@@ -1,0 +1,33 @@
+type: genericSmelter
+name: Hallowed Sand Liquidizer
+description: turns hallowed sand to liquid
+liquidCapacity: 90
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 10
+updateEffect: breakBlock
+consumes: {
+  power: 0.5
+    items:{
+     items:[
+      hallowed-sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  silicon/100
+  titanium/100
+  hallowed-sand/20
+  magic-dust/50
+  storable-sand/100
+]
+category: crafting
+research: sand-brewery
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: hallowed-water/5

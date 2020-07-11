@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Sand morpher(Scrap)
+description: turns sand to Scrap
+liquidCapacity: 0
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 10
+updateEffect: plasticburn
+consumes: {
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  storable-sand/20
+]
+category: crafting
+research: sand-morpher-copper
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: scrap/4

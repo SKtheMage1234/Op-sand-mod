@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Sand morpher(Titanium)
+description: turns sand to titanium
+liquidCapacity: 0
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 15
+updateEffect: plasticburn
+consumes: {
+  power: 0.9
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  silicon/100
+  metaglass/100
+  titanium/100
+  storable-sand/50
+]
+category: crafting
+research: sand-morpher-silicon
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: titanium/1

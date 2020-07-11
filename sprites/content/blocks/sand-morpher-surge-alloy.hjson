@@ -1,0 +1,36 @@
+type: GenericSmelter
+name: Sand morpher(Surge Alloy)
+description: turns sand to surge
+liquidCapacity: 60
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 80
+updateEffect: plasticburn
+consumes: {
+  power: 2
+  liquid: slag/0.033
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  silicon/100
+  metaglass/100
+  titanium/100
+  thorium/100
+  plastanium/100
+  surge-alloy/100
+  storable-sand/90
+]
+category: crafting
+research: sand-morpher-plastanium
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: surge-alloy/1

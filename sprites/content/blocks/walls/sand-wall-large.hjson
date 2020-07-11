@@ -1,0 +1,12 @@
+name: Sand Wall Large
+description: Large version of the sand wall
+type: DeflectorWall
+health: 1520
+size: 2
+hitTime: 10
+maxDamgeDeflect: 20
+requirements: [
+ storable-sand/10
+]
+category: defense
+research: sand-wall

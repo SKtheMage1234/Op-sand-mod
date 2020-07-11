@@ -1,0 +1,29 @@
+{
+	"type": "unitFactory",
+	"name": "Sand Mech Factory",
+	"description": "Constructs powerful but low health barrage units.",
+	"unitType": "sand-barrage",
+	"produceTime": 700,
+	"size": 2,
+	"maxSpawn": 5,
+	"consumes": {
+		"power": 1,
+		"items": {
+		"items": [
+            {"item": "storable-sand", "amount": 15.0},
+            {"item": "silicon", "amount": 7.0},
+            {"item": "magic-dust", "amount": 7.0},        
+            ]
+		}
+  },
+	"requirements": [
+	    {"item": "lead", "amount": 50},
+		{"item": "titanium", "amount": 45},
+		{"item": "silicon", "amount" : 50},
+		{"item": "storable-sand", "amount": 100},
+		{"item": "magic-dust", "amount": 200},
+		{"item": "hallowed-sand", "amount": 200},
+	],
+	"category": "units",
+	"research": "sandbuilder-drone-factory"
+}

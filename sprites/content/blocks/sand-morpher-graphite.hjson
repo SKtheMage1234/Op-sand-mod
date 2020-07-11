@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Sand morpher(graphite)
+description: turns sand to graphite
+liquidCapacity: 0
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 10
+updateEffect: plasticburn
+consumes: {
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  storable-sand/30
+]
+category: crafting
+research: sand-morpher-lead
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: graphite/3

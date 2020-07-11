@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Sand morpher(copper)
+description: turns sand to copper
+liquidCapacity: 0
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 10
+updateEffect: plasticburn
+consumes: {
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  storable-sand/20
+]
+category: crafting
+research: sand-checker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: copper/4

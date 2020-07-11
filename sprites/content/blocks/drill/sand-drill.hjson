@@ -1,0 +1,25 @@
+name: Sand Drill
+description: This drill is super effective for people who put it far away from the enemies because of its health
+type: Drill
+size: 2
+health: 1
+consumes: {
+  liquid: hallowed-water/0.33
+}
+tier: 5
+liquidBoostIntensity: 9
+hasLiquids: true
+rotateSpeed: 10
+drillTime: 1
+requirements: [
+  plastanium/90
+  silicon/100
+  hallowed-sand/50
+  storable-sand/60
+  graphite/100
+  thorium/100
+]
+category: production
+research: laser-drill
+idleSound: drill
+idleSoundVolume: 0.008

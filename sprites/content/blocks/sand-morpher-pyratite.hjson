@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Sand morpher(pyratite)
+description: turns sand to pyratite
+liquidCapacity: 0
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 10
+updateEffect: plasticburn
+consumes: {
+  power: 0.7
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  silicon/100
+  storable-sand/20
+]
+category: crafting
+research: sand-morpher-coal
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: pyratite/2

@@ -1,0 +1,34 @@
+{
+	"type": "groundUnit",
+	"name": "Sand Crawler",
+	"description": "More powerful than normal crawlers and faster but is health one hit.",
+	"maxVelocity": 4,
+	"speed": 4,
+	"drag": 0.05,
+	"mass": 5,
+	"hitsize": 7,
+	"shootCone": 360,
+	"rotatespeed": 0.1,
+	"health": 1,
+	"range": 60,
+	"weapon": {
+		"name": "nothing",
+	"range": 60,
+		"length": 13, 
+		"shootcone": 360,
+		"width": 0.1,
+		"reload": 10,
+		"alternate": true,
+		"shootSound": "shootBig",
+		"bullet":{
+             "lifetime": 40,
+             "instantDisappear": true,
+             "killShooter": true,
+             "speed": 1.5,
+             "splashDamageRadius": 60,
+             "splashDamage": 550,
+             "hitEffect": "commandSend",
+             "despawnEffect": "commandSend"   
+		}
+	}
+}

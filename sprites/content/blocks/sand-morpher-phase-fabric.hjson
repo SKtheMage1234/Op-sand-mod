@@ -1,0 +1,36 @@
+type: GenericSmelter
+name: Sand morpher(Phase Fabric)
+description: turns sand to phase fabric
+liquidCapacity: 60
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: plasticburn
+consumes: {
+  power: 1.5
+  liquid: oil/0.033
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  silicon/100
+  metaglass/100
+  titanium/100
+  thorium/100
+  plastanium/100
+  phase-fabric/100
+  storable-sand/20
+]
+category: crafting
+research: sand-morpher-thorium
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: phase-fabric/1

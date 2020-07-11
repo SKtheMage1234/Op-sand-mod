@@ -1,0 +1,5 @@
+name: Hallowed Water
+description: Magic water filled with freezing celsius.
+temperature: -90
+effect: freezing
+color: ffccff

@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Sand morpher(Plastanium)
+description: turns sand to plastanium
+liquidCapacity: 40
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: plasticburn
+consumes: {
+  power: 1
+  liquid: water/0.016
+    items:{
+     items:[
+      sand/1
+ ]
+}
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  silicon/100
+  metaglass/100
+  titanium/100
+  thorium/100
+  plastanium/100
+  storable-sand/70
+]
+category: crafting
+research: sand-morpher-titanium
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: plastanium/1

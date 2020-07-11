@@ -1,0 +1,6 @@
+type: material
+name: Magic dust
+description: magic powder that was made from thorium. Naturally pixies use this to learn magic
+radioactiveness: 25%
+cost: 2.5
+color: ff66ff

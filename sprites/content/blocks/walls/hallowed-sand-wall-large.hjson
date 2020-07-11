@@ -1,0 +1,14 @@
+name: Large Hallowed Sand Wall
+description: Upgraded version of Large sand wall. deflects more bullets and has higher health than surge
+type: DeflectorWall
+health: 4500
+size: 2
+hitTime: 30
+maxDamgeDeflect: 50
+requirements: [
+ storable-sand/12
+ hallowed-sand/25
+ phase-fabric/4
+]
+category: defense
+research: hallowed-sand-wall
