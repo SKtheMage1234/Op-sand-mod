@@ -6,11 +6,11 @@ size: 3
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 180
+craftTime: 90
 updateEffect: plasticburn
 consumes: {
   power: 1
-  liquid: cryofluid/1
+  liquid: cryofluid/0.033
     items:{
      items:[
       sand/4

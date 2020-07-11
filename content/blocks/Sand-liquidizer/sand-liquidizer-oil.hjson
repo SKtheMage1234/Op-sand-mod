@@ -1,17 +1,18 @@
-name: Magic Dust Maker
-description: turns thorium to magic dust
-liquidCapacity: 0
+type: GenericSmelter
+name: Sand Liquidizer(Oil)
+description: turns sand to oil
+liquidCapacity: 90
 size: 2
 hasPower: true
-hasLiquids: false
+hasLiquids: true
 hasItems: true
-craftTime: 60
+craftTime: 10
 updateEffect: placeBlock
 consumes: {
-  power: 0.9
+  power: 0.5
     items:{
      items:[
-      thorium/1
+      sand/2
  ]
 }
 }
@@ -19,12 +20,12 @@ requirements: [
   copper/100
   lead/100
   graphite/100
+  silicon/100
   titanium/100
-  thorium/100
   storable-sand/20
 ]
 category: crafting
-research: sand-checker
+research: sand-liquidizer-water
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: magic-dust/2
+outputLiquid: oil/5

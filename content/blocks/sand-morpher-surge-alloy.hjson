@@ -10,7 +10,7 @@ craftTime: 80
 updateEffect: plasticburn
 consumes: {
   power: 2
-  liquid: slag/5
+  liquid: slag/0.033
     items:{
      items:[
       sand/1
