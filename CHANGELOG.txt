@@ -1,0 +1,39 @@
+CHANGE LOG
+
+1.0
+ 
+ Materials
+ 1)Storable Sand
+ 2)Magic Dust
+ 3)Hallowed Sand
+ 
+ Power
+ 1)Sand Reactor
+ 
+ Factories
+ 1)Sand Morpher(Copper, Lead, Silicon, Graphite, Titanium, Metaglass, Thorium, etc.)
+ 2)Sand Checker
+ 3)Sand Brewery
+ 4)Magic Dust Maker
+
+ Turrets
+ 1)Dust Devil
+ 2)Mahic Shotgun
+ 
+ Walls
+ 1)Sand Wall and Large version
+ 2)Hallowed Sand Wall and Large version
+
+ Distributors
+ 1)Teleporter
+
+ Zones
+ 1)The Sand Cave
+ 
+ Units
+ 1)Sand Builder
+ 2)Sand Healer
+ 3)Sand Crawler
+ 4)Shock Tank
+
+
