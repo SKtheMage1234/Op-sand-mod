@@ -1,8 +1,8 @@
-Op Sand Mod
+# Op Sand Mod
 turns sand very op.
 
 
-Blocks:
+# Blocks:
 
 Sand Morphers - turns sand to the specific type of item.
 
@@ -13,19 +13,19 @@ Magic Dust Maker - turns thorium to magic dust.
 Sand Brewery -turns sand and magic dust to hallowed sand.
 
 
-Power:
+# Power:
 
 Sand Reactor - turns Sand to power. Takes a ver very long time
 
 
-Turrets:
+# Turrets:
 
 Dust Devil.
 
 Magic Shotgun
 
 
-Units:
+# Units:
 
 Sand Builder - like phantom builder drones but faster  and has lower health.
 
